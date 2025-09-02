@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Biodata Siswa</title>
+</head>
+<body>
+  <h1 align="center">Form Biodata Siswa</h1>
+  <table align="center" border="1" cellpadding="10" cellspacing="0">
+  <form action="#">
+    <tr>
+		<td>Nama Lengkap</td>
+		<td><input type="text" name="nama" required></td>
+	</tr>
+	<tr>
+		<td>NIS</td>
+		<td><input type="text" name="nis" required></td>
+	</tr>
+	<tr>
+		<td>Jenis Kelamin</td>
+		<td>
+			<input type="radio" name="jk" value="Laki-laki"> Laki-laki<br>
+			<input type="radio" name="jk" value="Perempuan"> Perempuan<br>
+			<input type="radio" name="jk" value="Lain-lain"> Lain-lain
+		</td>
+	</tr>
+	<tr>
+		<td>Kelas</td>
+		<td>
+		  <select name="kelas">
+			<option value="X RPL">X RPL</option>
+			<option value="XI RPL">XI RPL</option>
+			<option value="XII RPL">XII RPL</option>
+			<option value="X APHP">X APHP</option>
+			<option value="XI APHP">XI APHP</option>
+			<option value="XII APHP">XII APHP</option>
+		  </select>
+		</td>
+	</tr>
+	<tr>
+		<td>Tempat Lahir</td>
+		<td><input type="text" name="tempat"></td>
+	</tr>
+	<tr>
+		<td>Tanggal Lahir</td>
+		<td><input type="date" name="tanggal"></td>
+	</tr>
+	<tr>
+		<td>Alamat</td>
+		<td><textarea name="alamat" rows="3" cols="30"></textarea></td>
+	</tr>
+	<tr>
+	<td>Agama</td>
+	<td>
+	  <select name="agama">
+		<option value="Islam">Islam</option>
+		<option value="Kristen">Kristen</option>
+		<option value="Katolik">Katolik</option>
+		<option value="Hindu">Hindu</option>
+		<option value="Budha">Budha</option>
+	  </select>
+	</td>
+	</tr>
+	<tr>
+	  <td>Hobi</td>
+	  <td>
+		<input type="checkbox" name="hobi" value="Membaca"> Membaca<br>
+		<input type="checkbox" name="hobi" value="Menulis"> Menulis<br>
+		<input type="checkbox" name="hobi" value="Olahraga"> Olahraga
+      </td>
+	</tr>
+	<tr>
+    <td colspan="2" align="center">
+		<input type="submit" value="Kirim">
+		<input type="reset" value="Reset">
+	</td>
+	</tr>
+   </form>
+  </table>
+ </body>
+ </html>
